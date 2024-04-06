@@ -1,7 +1,5 @@
 package com.example.autodeletedir
 
-import android.Manifest
-import android.content.pm.PackageManager
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -11,9 +9,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
 import com.example.autodeletedir.ui.theme.AutoDeleteDirTheme
-import java.io.File
 import com.stericson.RootTools.RootTools
 import com.stericson.RootShell.execution.Command
 
